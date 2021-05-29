@@ -42,6 +42,10 @@ const App = () => {
 
   return (
     <div>
+      <h2>
+        In this expense handler project you can calculate how much you have
+        spent for a single item and monthly expenditure in percentages.{" "}
+      </h2>
       <NewExpense onAddExpense={addExpenseHandler}></NewExpense>
       <Expenses items={expenses} />
     </div>
